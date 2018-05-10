@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Caramel</title>
+    <title>刘京的个人网页——至于至善</title>
     <meta name="author" content="kurisubrooks">
     <meta name="description" content="a simple to use, easy to remember css framework">
 
@@ -21,11 +21,13 @@
     <meta property="og:description" content="a simple to use, easy to remember css framework">
     <meta property="og:url" content="https://kurisubrooks.com/caramel">
     <meta property="og:image" content="https://kurisubrooks.com/caramel/assets/header.png">
-
-    <link href="css/caramel.min.css" rel="stylesheet">
+     
+    <link rel="stylesheet" type="text/css" href="css/tooltipster.bundle.min.css" />
+    <link href="css/caramel.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
     <script src="js/caramel.js"></script>
+    <script type="text/javascript" src="js/tooltipster.bundle.min.js"></script>
 
     <style>
         main, .container {
@@ -78,12 +80,12 @@
                     <ul>
                         <li class="collapse"><a href="#"><i class="fa fa-bars"></i></a></li>
                         <li class="brand">
-                            <a href="http://slimebaby.cn">
+                            <a href="../AboutMe/other.html">
                                 <img src="assets/logo_clear.svg" width="30px" height="26px">
                             </a>
                         </li>
                         <li><a href="index.html">主页</a></li>
-                        <li><a href="http://slimebaby.cn">其他</a></li>
+                        <li><a href="../AboutMe/other.html">其他</a></li>
                         <li><a href="docs.html">文档</a></li>
                         <ul class="right">
                             <li>
@@ -99,7 +101,7 @@
         <div class="container">
             <img class="logo" src="assets/logo_clear.svg" height="128px" width="128px">
             <br><br>
-            <pre class="round"><a href="http://slimebaby.cn" target="_blank">SlimeBaby</a> 网页</pre>
+            <pre class="round"><a href="../AboutMe/other.html" target="_blank" class="tooltip" title="建议电脑访问">刘京的</a> 网页</pre>
         </div>
     </div>
 
@@ -116,6 +118,12 @@
             <img src="assets/333.svg">
             <h4>学习情况</h4>
         </div>
+        <!--<div class="full col-4">
+            <img src="assets/333.svg">
+            <button id="time" onclick="displayDate()">当前时间</button>
+  
+            <h4 id="demo">sd</h4>
+        </div>-->
     </div>
 
     <main>
@@ -547,7 +555,7 @@
             </div>
             <br>
             <p>
-                Made by <a href="http://slimebaby.cn" target="_blank">slimebaby</a>
+                       <b>蜀ICP备18013050号  </b>   <a href="../AboutMe/other.html" target="_blank">slimebaby</a>
             </p>
         </div>
     </div>

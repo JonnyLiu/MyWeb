@@ -1,10 +1,5 @@
 @charset "UTF-8";
-/*!
-    Caramel (http://kurisubrooks.com/caramel)
-    Copyright 2017, All Rights Reserved
-    @version 2.0.0
-    @license GNU GPL v3
- */
+
 *,
 *::before,
 *::after {
@@ -189,12 +184,12 @@ h4.subtitle, h5.subtitle, h6.subtitle {
 }
 
 a {
-  color: #0174DF;
+  color: black;
   text-decoration: none;
 }
 
 a:hover, a:focus {
-  color: #0167c6;
+  color: black;
   text-decoration: none;
 }
 
@@ -3158,3 +3153,8 @@ tag.dark,
   color: #FFF;
   background: #3F3F3F;
 }
+
+a:link {color:black;}      /* 未访问链接*/
+a:visited {color:black;}  /* 已访问链接 */
+a:hover {color:red;}  /* 鼠标移动到链接上 */
+a:active {color:blue;}  /* 鼠标点击时 */

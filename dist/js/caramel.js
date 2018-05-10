@@ -34,4 +34,25 @@ $(document).ready(function () {
     });
 
     $(window).resize();
+    
+//  $('#time').click(function(){
+//  	document.getElementById("demo").innerHTML=Date();
+//  })
+//  
+
+//	var timeElm = document.getElementById('time');
+//	timeElm.addEventListener('click', function (){
+//		displayDate();
+//	});
+//	function displayDate(){
+//  	var demoElm = document.getElementById("demo")
+//	   demoElm.innerHTML=Date();
+//  }
+
+$('.tooltip').tooltipster({
+    theme: 'tooltipster-Default'
 });
+
+
+});
+

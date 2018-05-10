@@ -22,10 +22,12 @@
     <meta property="og:url" content="https://kurisubrooks.com/caramel">
     <meta property="og:image" content="https://kurisubrooks.com/caramel/assets/header.png">
 
-    <link href="css/caramel.min.css" rel="stylesheet">
+    <link href="css/caramel.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/tooltipster.bundle.min.css" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
     <script src="js/caramel.js"></script>
+    <script type="text/javascript" src="js/tooltipster.bundle.min.js"></script>
 
     <style>
         .hero {
@@ -39,6 +41,11 @@
             font-size: 16px;
         }
     </style>
+        <script>
+        $(document).ready(function() {
+            $('.tooltip').tooltipster();
+        });
+    </script>
 </head>
 <body>
     <div class="hero --medium">
@@ -47,7 +54,7 @@
                 <ul>
                     <li class="collapse"><a href="#"><i class="fa fa-bars"></i></a></li>
                     <li class="brand">
-                        <a href="index.html/">
+                        <a href="index.html">
                             <img src="assets/logo_clear.svg" width="30px" height="26px">
                         </a>
                     </li>
@@ -73,18 +80,18 @@
         <div class="sidebar">
             <ul>
                 <li class="title">文章</li>
-                <li><a href="http://slimebaby.cn/" target="_top">2018-01解决生产环境不能发送邮件的问题</a></li>
-                <li>Colours</li>
-                <li>Helpers</li>   
+                <li><a href="../AboutMe/other.html" target="_top" class="tooltip" title="Web开发环境配置必不可少">2018-04快速Ubuntu搭建LAMP环境的配置</a></li>
+                <li><a href="../AboutMe/other.html" target="_top" class="tooltip" title="Web开发怎么能少后台PHP呢">2018-03快速Windows搭建PHP环境的配置</a></li>
+                <li><a href="../AboutMe/other.html" target="_top" class="tooltip" title="Web开发测试之发送邮件">2018-01解决生产环境不能发送邮件的问题</a></li>   
                 <li class="separator"></li>
                 <li class="title">标签</li>
                 <li>Typography</li>
                 <li>Media</li>
                 <li class="separator"></li>
                 <li class="title">酷站</li>
-                <li>Alerts</li>
-                <li>Cards</li>
-                <li>Navigation</li>
+                <li>阿里图标库Iconfont</li>
+                <li>Web框架Bootstrap</li>
+                <li>免费快速建站工具strikingly</li>
                 <li>Notices</li>
                 <li>Panels</li>
                 <li>Tables</li>
@@ -113,7 +120,7 @@
             </div>
             <br>
             <p>
-                Made by <a href="http://slimebaby.cn" target="_blank">slimebaby</a>
+                       <b>蜀ICP备18013050号  </b>   <a href="../AboutMe/other.html" target="_blank">slimebaby</a>
             </p>
         </div>
     </div>
